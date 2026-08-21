@@ -11,7 +11,7 @@ function RecentTransactions({ data }) {
           ))}
         </ul>
       ) : (
-        <p className="muted">Transactions will appear here once connected to the API.</p>
+        <p className="muted">View records of transactions.</p>
       )}
     </div>
   );

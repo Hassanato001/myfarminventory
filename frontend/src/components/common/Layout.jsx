@@ -46,7 +46,7 @@ function Layout() {
         <div className="topbar">
           <div>
             <strong>Farm Shop Inventory</strong>
-            <div className="muted">Frontend scaffold</div>
+            <div className="muted">Welcome to User</div>
           </div>
           <div className="row">
             <NotificationBell />

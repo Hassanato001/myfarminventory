@@ -88,7 +88,7 @@ function POS() {
 
   return (
     <div className="page">
-      <PagePlaceholder title="POS" description="Point of sale workspace scaffold." />
+      <PagePlaceholder title="POS" description="Point of sale " />
       <div className="card-grid">
         <ProductSearch query={query} setQuery={setQuery} onAddProduct={addProduct} products={products} />
         <Cart items={cart} onChangeQty={changeQty} onRemove={(productId) => changeQty(productId, -999)} />
