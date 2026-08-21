@@ -26,7 +26,7 @@ function Login() {
     <div className="auth-page">
       <div className="auth-card panel">
         <h1>Sign in</h1>
-        <p className="muted">Use the seeded demo credentials to enter the dashboard.</p>
+        <p className="muted">Enter login details to access the dashboard.</p>
         <form onSubmit={submit} className="page">
           <Input label="Email" type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} />
           <Input label="Password" type="password" value={form.password} onChange={(e) => setForm({ ...form, password: e.target.value })} />
